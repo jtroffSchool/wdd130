@@ -1,0 +1,43 @@
+* {
+    background-color: pink;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+h1:hover {
+    color: black;
+}
+#topquote {
+    margin: auto;
+    width: 40%;
+    color: white;
+    text-align: center;
+}
+#topname {
+    font-weight: 900;
+}
+li {
+    font-weight: bolder;
+    margin: 5px auto;
+    width: 40%;
+    list-style-position: inside;
+}
+img {
+    display: block;
+    width: 10%;
+    height: 10%;
+    margin: 0 auto;
+}
+#mainparagraph {
+    color: white;
+    width: 20%;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 1.5em;
+}
+footer {
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+}
