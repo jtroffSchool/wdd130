@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:ital@1&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +9,7 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -16,6 +19,10 @@ nav a:hover {
 
 #hero-img {
     width: 100%;
+}
+
+#hero-msg {
+    padding-bottom: 30px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -29,6 +36,10 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
     background-color: #013A63;
@@ -36,6 +47,14 @@ main section {
 
 body {
     background-color: #012A4A;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+#logo-link {
+    padding-top: 5px;
 }
 
 .logo {
@@ -44,6 +63,7 @@ body {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 header {
@@ -52,6 +72,8 @@ header {
 
 h2 {
     color: white;
+    font-family: Kaushan Script, Arial, sans-serif;
+    margin: 0;
 }
 
 h4 {
@@ -60,12 +82,19 @@ h4 {
 
 .home-title {
     color: white;
+    font-family: Kaushan Script, Arial, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .book, .join {
     background-color: #468FAF;
     color: #012A4A;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -73,20 +102,35 @@ h4 {
     color: #012A4A;
 }
 
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
 .msg {
     background-color: #013A63;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color: white;
+    font-family: Kaushan Script, Arial, sans-serif;
 }
 
 .msg p {
     color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #013A63;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer h3 {
@@ -101,4 +145,8 @@ footer a {
 footer a:hover {
     color: #468FAF;
     text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
