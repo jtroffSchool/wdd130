@@ -93,7 +93,7 @@
   /* This is the parent of the activity 4 boxes. */
   display: grid;
   grid-template-columns: 1fr 1fr;
-  width: 400px;
+  width: 600px;
   height: 400px;
 }
 .red4 {
@@ -120,7 +120,7 @@
 /* Activity 5 styles */ 
 .content5 {
   /* This is the parent of the activity 5 boxes. */
-  width: 800px;
+  width: 700px;
   height: 400px;
 }
 .red5 { 
