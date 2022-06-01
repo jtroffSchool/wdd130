@@ -67,7 +67,7 @@ main section img {
 
 body {
     background-color: #012A4A;
-    font-family: Roboto, Helvetica, sans-serif;
+    font-family: "Roboto", Helvetica, sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -96,7 +96,7 @@ header {
 
 h2 {
     color: white;
-    font-family: Kaushan Script, Arial, sans-serif;
+    font-family: "Kaushan Script", Arial, sans-serif;
     margin: 0;
 }
 
@@ -106,7 +106,7 @@ h4 {
 
 .home-title {
     color: white;
-    font-family: Kaushan Script, Arial, sans-serif;
+    font-family: "Kaushan Script", Arial, sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -168,7 +168,7 @@ h4 {
 .card-img {
     border: 10px solid black;
     transition: transform .5s;
-    box-shadow: 5px 5px 10x #6f7364;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
 .card-img:hover {
@@ -187,7 +187,7 @@ h4 {
 
 .msg h2 {
     color: white;
-    font-family: Kaushan Script, Arial, sans-serif;
+    font-family: "Kaushan Script", Arial, sans-serif;
 }
 
 .msg p {
