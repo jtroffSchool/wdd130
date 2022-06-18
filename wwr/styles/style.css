@@ -251,7 +251,8 @@ footer .social img {
 
 .rivers-grid p {
     color: white;
-    font-size: 14px;
+    font-size: 16px;
+    line-height: 25px;
 }
 
 .salmon-river-section p, .grand-canyon-section p {
@@ -316,5 +317,34 @@ footer .social img {
     }
     footer {
         margin-top: 25px;
+    }
+
+    /* Rivers Page specific media */
+    .salmon-river-section, .desolation-section, .grand-canyon-section {
+        display: block;
+        height: auto;
+    }
+    span {
+        border: 0px solid !important;
+    }
+    .rivers-grid p {
+        margin: auto;
+        width: 75%;
+        text-align: center;
+    }
+    .salmon-river-section p, .grand-canyon-section p {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+    }
+
+    .desolation-section p {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+    }
+
+    .desolation-section img {
+        padding-top: 10px;
     }
 }
