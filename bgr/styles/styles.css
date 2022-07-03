@@ -57,11 +57,13 @@ body {
     padding: 0;
 }
 
-#hero-msg h1, #hero-msg h4 {
+#hero-msg h1 {
     text-align: center;
     font-weight: bolder;
     border: thick double black;
     font-size: 64px;
+    color: black;
+    background-color: #cbf3f0;
 }
 
 #logo-link {
