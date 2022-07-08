@@ -6,6 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Board Game Reviewers | Categories</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            /* Toggle between adding and removing the "active" class,
+            to highlight the button that controls the panel */
+            this.classList.toggle("active");
+
+            /* Toggle between hiding and showing the active panel */
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+            panel.style.display = "none";
+            } else {
+            panel.style.display = "block";
+            }
+        });
+        }
+    </script>
 </head>
 <body>
     <div id="content">
@@ -19,7 +39,69 @@
                 <a href="about-me.html">About Me</a>
             </nav>
         </header>
-        <main class="categories-grid">
+        <button class="accordion">Family/Casual</button>
+        <div class="panel">
+            <img id="family-category-categories" src="images/family_games.jpg" alt="Family playing games">
+            <ul>
+                <li>Happy Little Dinosaurs</li>
+                <li>Codenames</li>
+                <li>Exploding Kittens</li>
+                <li>Five Crowns</li>
+                <li>Guillotine</li>
+                <li>Karma</li>
+                <li>Moods</li>
+                <li>Scattergories</li>
+            </ul>
+            <ul>
+                <li>Can you escape disaster? And your friends?</li>
+                <li>Compete to identify secret words, but beware of the assassin</li>
+                <li>Laugh while you force your fellow players to explode</li>
+                <li>Compete to score low but the game is not over till the kings go wild</li>
+                <li>Rack up points by sending nobles to the guillotine</li>
+                <li>Everyone wins, except the one who karma catches up to</li>
+                <li>Act out random phrases in various moods</li>
+                <li>Can you answer all the categories starting with a specific letter?</li>
+            </ul>
+        </div>
+
+        <button class="accordion">Gamer</button>
+        <div class="panel">
+            <img id="gamer-category" src="images/game_example.jpg" alt="Gamer game example">
+            <ul>
+                <li>Talisman</li>
+                <li>The Reckoners</li>
+                <li>Villainous</li>
+                <li>Root</li>
+                <li>Betrayal at House on the Hill</li>
+                <li>Pandemic</li>
+            </ul>
+            <ul>
+                <li>Defeat monsters and each other in a race to power</li>
+                <li>Work together to defeat those with superpowers</li>
+                <li>Villians time to shine and win the day</li>
+                <li>Nature versus industry. Who will take over the forest?</li>
+                <li>Explore an abandoned house but can you survive the haunting?</li>
+                <li>Work together to stem the tide of a world wide pandemic</li>
+            </ul>
+        </div>
+
+        <button class="accordion">Puzzle</button>
+        <div class="panel">
+            <img id="puzzle-category" src="images/puzzle_games.jpg" alt="Puzzle game">
+            <ul>
+                <li>Cat Stax</li>
+                <li>Cat Crimes</li>
+                <li>Jenga</li>
+                <li>Blockus</li>
+            </ul>
+            <ul>
+                <li>Can you fit the given cats within the grid?</li>
+                <li>Logic thinking game but with cats</li>
+                <li>Compete to pull blocks without knocking the tower down</li>
+                <li>Can you claim the most territory with tetris like blocks?</li>
+            </ul>
+        </div>
+        <!-- <main class="categories-grid">
             <section>
                 <div>
                     <h2>Family/Casual</h2>
@@ -45,8 +127,8 @@
                     <li>Act out random phrases in various moods</li>
                     <li>Can you answer all the categories starting with a specific letter?</li>
                 </ul>
-            </section>
-            <section>
+            </section> -->
+            <!-- <section>
                 <div>
                     <h2>Gamer</h2>
                     <img id="gamer-category" src="images/game_example.jpg" alt="Gamer game example">
@@ -67,8 +149,8 @@
                     <li>Explore an abandoned house but can you survive the haunting?</li>
                     <li>Work together to stem the tide of a world wide pandemic</li>
                 </ul>
-            </section>
-            <section>
+            </section> -->
+            <!-- <section>
                 <div>
                     <h2>Puzzle</h2>
                     <img id="puzzle-category" src="images/puzzle_games.jpg" alt="Puzzle game">
@@ -85,7 +167,7 @@
                     <li>Compete to pull blocks without knocking the tower down</li>
                     <li>Can you claim the most territory with tetris like blocks?</li>
                 </ul>
-            </section>
+            </section> -->
             <section>
                 <h2>Many More to Come</h2>
                 <p>
